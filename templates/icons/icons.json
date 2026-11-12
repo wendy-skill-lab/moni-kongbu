@@ -1,0 +1,227 @@
+[
+  {
+    "file": "wechat.png",
+    "app": "WeChat",
+    "label_zh": "微信",
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/6b/3a/846b3ab8-9dea-e3e5-861e-f6ecaa0b3387/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-85-220.png/1024x1024bb.png",
+    "shape": "square",
+    "verified": true,
+    "notes": "Official app identity verified: seller Tencent Technology (Shenzhen) Company Limited; trackId 414478124; China iTunes Lookup https://itunes.apple.com/lookup?id=414478124&country=cn. Original 1024x1024. Visually inspected saved PNG; correct official app artwork."
+  },
+  {
+    "file": "alipay.png",
+    "app": "Alipay",
+    "label_zh": "支付宝",
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9d/f5/0b/9df50b9c-2ebe-bb6b-bcc0-fb4ac366ba94/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/1024x1024bb.png",
+    "shape": "square",
+    "verified": true,
+    "notes": "Official app identity verified: seller Alipay (Hangzhou) Technology Co., Ltd.; trackId 333206289; China iTunes Lookup https://itunes.apple.com/lookup?id=333206289&country=cn. Original 1024x1024. Visually inspected saved PNG; correct official app artwork."
+  },
+  {
+    "file": "taobao.png",
+    "app": "Taobao",
+    "label_zh": "淘宝",
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/52/d9/4f52d982-e707-ea87-6c93-a8cea98268ec/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/1024x1024bb.png",
+    "shape": "square",
+    "verified": true,
+    "notes": "Official app identity verified: seller Zhejiang Taobao Network Co.,Ltd; trackId 387682726; China iTunes Lookup https://itunes.apple.com/lookup?id=387682726&country=cn. Original 1024x1024. Visually inspected saved PNG; correct official app artwork."
+  },
+  {
+    "file": "meituan.png",
+    "app": "Meituan",
+    "label_zh": "美团",
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/f8/fa/d0f8fa57-8cec-b526-d19e-3bc52a2c8d8b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-85-220.png/1024x1024bb.png",
+    "shape": "square",
+    "verified": true,
+    "notes": "Official app identity verified: seller Sankuai Technology Co., Ltd.; trackId 423084029; China iTunes Lookup https://itunes.apple.com/lookup?id=423084029&country=cn. Original 1024x1024. Visually inspected saved PNG; correct official app artwork."
+  },
+  {
+    "file": "douyin.png",
+    "app": "Douyin",
+    "label_zh": "抖音",
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cd/92/6d/cd926dfd-ca14-4dbc-0d4d-76428e2ee512/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/1024x1024bb.png",
+    "shape": "square",
+    "verified": true,
+    "notes": "Official app identity verified: seller Beijing Douyin Technology Co., Ltd.; trackId 1142110895; China iTunes Lookup https://itunes.apple.com/lookup?id=1142110895&country=cn. Original 1024x1024. Visually inspected saved PNG; correct official app artwork."
+  },
+  {
+    "file": "xiaohongshu.png",
+    "app": "Xiaohongshu",
+    "label_zh": "小红书",
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/b2/1e/39b21ea6-3657-3fc0-a927-8f1cd45e0f1b/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/1024x1024bb.png",
+    "shape": "square",
+    "verified": true,
+    "notes": "Official app identity verified: seller Xingin Information Technology (Shanghai) Co., Ltd; trackId 741292507; China iTunes Lookup https://itunes.apple.com/lookup?id=741292507&country=cn. Original 1024x1024. Visually inspected saved PNG; correct official app artwork."
+  },
+  {
+    "file": "amap.png",
+    "app": "Amap",
+    "label_zh": "高德地图",
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/df/cd/e5dfcd1f-948d-681f-29da-8d5c00e0ae45/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/1024x1024bb.png",
+    "shape": "square",
+    "verified": true,
+    "notes": "Official app identity verified: seller AutoNavi Information Technology Co. Ltd.; trackId 461703208; China iTunes Lookup https://itunes.apple.com/lookup?id=461703208&country=cn. Original 1024x1024. Visually inspected saved PNG; correct official app artwork."
+  },
+  {
+    "file": "netease_music.png",
+    "app": "NetEase Cloud Music",
+    "label_zh": "网易云音乐",
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/7b/a9/287ba9e3-751c-3994-cf3a-04a9ae2cbcac/appIconNew-0-0-1x_U007epad-0-1-0-85-220.png/1024x1024bb.png",
+    "shape": "square",
+    "verified": true,
+    "notes": "Official app identity verified: seller Hangzhou Netease Cloud Music Technology Co., Ltd.; trackId 590338362; China iTunes Lookup https://itunes.apple.com/lookup?id=590338362&country=cn. Original 1024x1024. Visually inspected saved PNG; correct official app artwork."
+  },
+  {
+    "file": "bilibili.png",
+    "app": "bilibili",
+    "label_zh": "哔哩哔哩",
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/4e/b4/404eb4f0-3eb9-344c-6c11-2198c2959f4e/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/1024x1024bb.png",
+    "shape": "square",
+    "verified": true,
+    "notes": "Official app identity verified: seller Shanghai Bilibili Animation Co.,Ltd; trackId 736536022; China iTunes Lookup https://itunes.apple.com/lookup?id=736536022&country=cn. Original 1024x1024. Visually inspected saved PNG; correct official app artwork."
+  },
+  {
+    "file": "jd.png",
+    "app": "JD",
+    "label_zh": "京东",
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e9/e4/54/e9e454a9-8e0c-7559-d595-f19c7e4ab744/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/1024x1024bb.png",
+    "shape": "square",
+    "verified": true,
+    "notes": "Official app identity verified: seller Beijing Jingdong Century Trading Co., Ltd.; trackId 414245413; China iTunes Lookup https://itunes.apple.com/lookup?id=414245413&country=cn. Original 1024x1024. Visually inspected saved PNG; correct official app artwork."
+  },
+  {
+    "file": "calendar.png",
+    "app": "Apple Calendar",
+    "label_zh": "日历",
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/5a/cd/ca5acd85-c64d-f468-00f9-50fdc4819e59/calendarCalistoga-0-0-1x_U007epad-0-1-0-85-220.png/1024x1024bb.png",
+    "shape": "square",
+    "verified": true,
+    "notes": "Official app identity verified: seller Apple Distribution International; trackId 1108185179; China iTunes Lookup https://itunes.apple.com/lookup?id=1108185179&country=cn. Original 1024x1024. Visually inspected saved PNG; correct official app artwork. IMPORTANT: current China API artwork is the newer glossy/Liquid Glass design, not flat iOS 17/18 artwork. Chinese label corroborated by Apple Chinese iPhone guide https://support.apple.com/zh-cn/guide/iphone/welcome/18.0/ios/18.0. Calendar icon is a static App Store sample, not the filming date. iOS home-screen Calendar dynamically shows weekday and day."
+  },
+  {
+    "file": "clock.png",
+    "app": "Apple Clock",
+    "label_zh": "时钟",
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/8e/d2/c08ed244-21b1-9bce-7199-2417712ae123/clockCalistoga-0-0-1x_U007epad-0-1-0-85-220.png/1024x1024bb.png",
+    "shape": "square",
+    "verified": true,
+    "notes": "Official app identity verified: seller Apple Distribution International; trackId 1584215688; China iTunes Lookup https://itunes.apple.com/lookup?id=1584215688&country=cn. Original 1024x1024. Visually inspected saved PNG; correct official app artwork. IMPORTANT: current China API artwork is the newer glossy/Liquid Glass design, not flat iOS 17/18 artwork. Chinese label corroborated by Apple Chinese iPhone guide https://support.apple.com/zh-cn/guide/iphone/welcome/18.0/ios/18.0. Clock icon is a static sample. The real home-screen Clock shows the current time."
+  },
+  {
+    "file": "weather.png",
+    "app": "Apple Weather",
+    "label_zh": "天气",
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/d6/cf/66d6cf2c-91a7-6c10-8bd6-54b2dc7b558e/weatherCalistoga-0-0-1x_U007epad-0-1-0-85-220.png/1024x1024bb.png",
+    "shape": "square",
+    "verified": true,
+    "notes": "Official app identity verified: seller Apple Distribution International; trackId 1069513131; China iTunes Lookup https://itunes.apple.com/lookup?id=1069513131&country=cn. Original 1024x1024. Visually inspected saved PNG; correct official app artwork. IMPORTANT: current China API artwork is the newer glossy/Liquid Glass design, not flat iOS 17/18 artwork. Chinese label corroborated by Apple Chinese iPhone guide https://support.apple.com/zh-cn/guide/iphone/welcome/18.0/ios/18.0."
+  },
+  {
+    "file": "notes.png",
+    "app": "Apple Notes",
+    "label_zh": "备忘录",
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/53/65/e853659a-0888-7264-743e-0e3875d1505f/notesCalistoga-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.png",
+    "shape": "square",
+    "verified": true,
+    "notes": "Official app identity verified: seller Apple Distribution International; trackId 1110145109; China iTunes Lookup https://itunes.apple.com/lookup?id=1110145109&country=cn. Original 1024x1024. Visually inspected saved PNG; correct official app artwork. IMPORTANT: current China API artwork is the newer glossy/Liquid Glass design, not flat iOS 17/18 artwork. Chinese label corroborated by Apple Chinese iPhone guide https://support.apple.com/zh-cn/guide/iphone/welcome/18.0/ios/18.0."
+  },
+  {
+    "file": "calculator.png",
+    "app": "Apple Calculator",
+    "label_zh": "计算器",
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f4/35/37/f435379c-2c09-a52a-1bbc-326d8cd54853/calculatorCalistoga-0-0-1x_U007epad-0-1-0-85-220.png/1024x1024bb.png",
+    "shape": "square",
+    "verified": true,
+    "notes": "Official app identity verified: seller Apple Distribution International; trackId 1069511488; China iTunes Lookup https://itunes.apple.com/lookup?id=1069511488&country=cn. Original 1024x1024. Visually inspected saved PNG; correct official app artwork. IMPORTANT: current China API artwork is the newer glossy/Liquid Glass design, not flat iOS 17/18 artwork. Chinese label corroborated by Apple Chinese iPhone guide https://support.apple.com/zh-cn/guide/iphone/welcome/18.0/ios/18.0."
+  },
+  {
+    "file": "maps.png",
+    "app": "Apple Maps",
+    "label_zh": "地图",
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/98/53/2e/98532ed4-879d-02f7-5021-84082f28593e/mapsCalistoga-0-0-1x_U007epad-0-1-0-85-220.png/1024x1024bb.png",
+    "shape": "square",
+    "verified": true,
+    "notes": "Official app identity verified: seller Apple Distribution International; trackId 915056765; China iTunes Lookup https://itunes.apple.com/lookup?id=915056765&country=cn. Original 1024x1024. Visually inspected saved PNG; correct official app artwork. IMPORTANT: current China API artwork is the newer glossy/Liquid Glass design, not flat iOS 17/18 artwork. Chinese label corroborated by Apple Chinese iPhone guide https://support.apple.com/zh-cn/guide/iphone/welcome/18.0/ios/18.0."
+  },
+  {
+    "file": "music.png",
+    "app": "Apple Music",
+    "label_zh": "音乐",
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/45/38/d5453893-7719-0067-ed45-1de44d0d8eb9/musicValkyrie-0-0-1x_U007epad-0-1-0-85-220.png/1024x1024bb.png",
+    "shape": "square",
+    "verified": true,
+    "notes": "Official app identity verified: seller Apple Distribution International; trackId 1108187390; China iTunes Lookup https://itunes.apple.com/lookup?id=1108187390&country=cn. Original 1024x1024. Visually inspected saved PNG; correct official app artwork. IMPORTANT: current China API artwork is the newer glossy/Liquid Glass design, not flat iOS 17/18 artwork. Chinese label corroborated by Apple Chinese iPhone guide https://support.apple.com/zh-cn/guide/iphone/welcome/18.0/ios/18.0."
+  },
+  {
+    "file": "reminders.png",
+    "app": "Apple Reminders",
+    "label_zh": "提醒事项",
+    "source_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/b4/39/4bb43986-4714-adc7-459a-1b7c7aafff1d/remindersCalistoga-0-0-1x_U007epad-0-1-0-0-85-220.png/1024x1024bb.png",
+    "shape": "square",
+    "verified": true,
+    "notes": "Official app identity verified: seller Apple Distribution International; trackId 1108187841; China iTunes Lookup https://itunes.apple.com/lookup?id=1108187841&country=cn. Original 1024x1024. Visually inspected saved PNG; correct official app artwork. IMPORTANT: current China API artwork is the newer glossy/Liquid Glass design, not flat iOS 17/18 artwork. Chinese label corroborated by Apple Chinese iPhone guide https://support.apple.com/zh-cn/guide/iphone/welcome/18.0/ios/18.0."
+  },
+  {
+    "file": "camera.png",
+    "app": "Apple Camera",
+    "label_zh": "相机",
+    "source_url": "https://static.wikia.nocookie.net/logopedia/images/2/2d/Camera_%28iOS%29_2024_II.svg/revision/latest",
+    "shape": "rounded_transparent",
+    "verified": true,
+    "notes": "Historical light-mode Apple icon design, not a redesign. Source is a third-party SVG rendition hosted by Logopedia, not an Apple-original PNG. Unmodified design rendered from scalable vector to 512x512; alpha preserved. Visual design checked against Apple iOS 18 home-screen screenshot https://support.apple.com/zh-cn/guide/iphone/iphca3d8b4e3/18.0/ios/18.0. Source history: https://logos.fandom.com/wiki/Camera_(iOS). No opaque padding; no crop needed. iOS 18 version. Chinese app name corroborated by Apple guide https://support.apple.com/zh-cn/guide/iphone/welcome/18.0/ios/18.0."
+  },
+  {
+    "file": "settings.png",
+    "app": "Apple Settings",
+    "label_zh": "设置",
+    "source_url": "https://static.wikia.nocookie.net/logopedia/images/6/64/Settings_%28iOS%29.svg/revision/latest",
+    "shape": "rounded_transparent",
+    "verified": true,
+    "notes": "Historical light-mode Apple icon design, not a redesign. Source is a third-party SVG rendition hosted by Logopedia, not an Apple-original PNG. Unmodified design rendered from scalable vector to 512x512; alpha preserved. Visual design checked against Apple iOS 18 home-screen screenshot https://support.apple.com/zh-cn/guide/iphone/iphca3d8b4e3/18.0/ios/18.0. Source history: https://logos.fandom.com/wiki/Settings_(iOS). No opaque padding; no crop needed. Flat iOS 17-style design also visually compatible with the iOS 18 light icons. Chinese app name corroborated by Apple guide https://support.apple.com/zh-cn/guide/iphone/welcome/18.0/ios/18.0."
+  },
+  {
+    "file": "photos.png",
+    "app": "Apple Photos",
+    "label_zh": "照片",
+    "source_url": "https://static.wikia.nocookie.net/logopedia/images/f/f8/Apple_Photos_%28iOS%29_2024.svg/revision/latest?cb=20240615042157",
+    "shape": "rounded_transparent",
+    "verified": true,
+    "notes": "Historical light-mode Apple icon design, not a redesign. Source is a third-party SVG rendition hosted by Logopedia, not an Apple-original PNG. Unmodified design rendered from scalable vector to 512x512; alpha preserved. Visual design checked against Apple iOS 18 home-screen screenshot https://support.apple.com/zh-cn/guide/iphone/iphca3d8b4e3/18.0/ios/18.0. Source history: https://logos.fandom.com/wiki/Photos_(iOS). No opaque padding; no crop needed. iOS 18 version. Chinese app name corroborated by Apple guide https://support.apple.com/zh-cn/guide/iphone/welcome/18.0/ios/18.0."
+  },
+  {
+    "file": "phone.png",
+    "app": "Apple Phone",
+    "label_zh": "电话",
+    "source_url": "https://static.wikia.nocookie.net/logopedia/images/9/94/Phone_%28iOS%29_2024.svg/revision/latest",
+    "shape": "rounded_transparent",
+    "verified": true,
+    "notes": "Historical light-mode Apple icon design, not a redesign. Source is a third-party SVG rendition hosted by Logopedia, not an Apple-original PNG. Unmodified design rendered from scalable vector to 512x512; alpha preserved. Visual design checked against Apple iOS 18 home-screen screenshot https://support.apple.com/zh-cn/guide/iphone/iphca3d8b4e3/18.0/ios/18.0. Source history: https://logos.fandom.com/wiki/Phone_(Apple). No opaque padding; no crop needed. Chinese app name corroborated by Apple guide https://support.apple.com/zh-cn/guide/iphone/welcome/18.0/ios/18.0."
+  },
+  {
+    "file": "messages.png",
+    "app": "Apple Messages",
+    "label_zh": "信息",
+    "source_url": "https://static.wikia.nocookie.net/logopedia/images/9/99/Messages_%28iOS%29_2024.svg/revision/latest",
+    "shape": "rounded_transparent",
+    "verified": true,
+    "notes": "Historical light-mode Apple icon design, not a redesign. Source is a third-party SVG rendition hosted by Logopedia, not an Apple-original PNG. Unmodified design rendered from scalable vector to 512x512; alpha preserved. Visual design checked against Apple iOS 18 home-screen screenshot https://support.apple.com/zh-cn/guide/iphone/iphca3d8b4e3/18.0/ios/18.0. Source history: https://logos.fandom.com/wiki/Messages_(iOS). No opaque padding; no crop needed. Chinese app name corroborated by Apple guide https://support.apple.com/zh-cn/guide/iphone/welcome/18.0/ios/18.0."
+  },
+  {
+    "file": "safari.png",
+    "app": "Apple Safari",
+    "label_zh": "Safari浏览器",
+    "source_url": "https://static.wikia.nocookie.net/logopedia/images/e/eb/Safari_%28iOS%29_2017.svg/revision/latest?cb=20240613225623",
+    "shape": "rounded_transparent",
+    "verified": false,
+    "notes": "Historical light-mode Apple icon design, not a redesign. Source is a third-party SVG rendition hosted by Logopedia, not an Apple-original PNG. Unmodified design rendered from scalable vector to 512x512; alpha preserved. Visual design checked against Apple iOS 18 home-screen screenshot https://support.apple.com/zh-cn/guide/iphone/iphca3d8b4e3/18.0/ios/18.0. Source history: https://logos.fandom.com/wiki/Safari_(iOS). No opaque padding; no crop needed. Flat iOS 17-style design also visually compatible with the iOS 18 light icons. Chinese app name corroborated by Apple guide https://support.apple.com/zh-cn/guide/iphone/welcome/18.0/ios/18.0. LABEL CAVEAT: Apple documentation writes Safari 浏览器 with a typographic space. Safari浏览器 is the requested unspaced on-device label; an unobstructed home-screen label screenshot was not obtained. Exact on-device spacing remains unverified."
+  },
+  {
+    "file": "app_store.png",
+    "app": "App Store",
+    "label_zh": "App Store",
+    "source_url": "https://static.wikia.nocookie.net/logopedia/images/6/65/App_Store_%28iOS%29_2017.svg/revision/latest",
+    "shape": "rounded_transparent",
+    "verified": true,
+    "notes": "Historical light-mode Apple icon design, not a redesign. Source is a third-party SVG rendition hosted by Logopedia, not an Apple-original PNG. Unmodified design rendered from scalable vector to 512x512; alpha preserved. Visual design checked against Apple iOS 18 home-screen screenshot https://support.apple.com/zh-cn/guide/iphone/iphca3d8b4e3/18.0/ios/18.0. Source history: https://logos.fandom.com/wiki/App_Store_(iOS). No opaque padding; no crop needed. Flat iOS 17-style design also visually compatible with the iOS 18 light icons. Chinese app name corroborated by Apple guide https://support.apple.com/zh-cn/guide/iphone/welcome/18.0/ios/18.0."
+  }
+]
