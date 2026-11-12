@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:'InterV';src:url('../node_modules/@fontsource-variable/inter/files/inter-latin-wght-normal.woff2') format('woff2');font-weight:100 900;}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1440px;overflow:hidden;background:#000}
+.a{position:absolute}
+.cjk{font-family:'Noto Sans CJK SC','InterV',sans-serif}
+.bg{object-fit:cover;filter:contrast(1.06) brightness(.9) blur(.3px)}
+.grain{mix-blend-mode:overlay;opacity:.3}
+.osd{font:600 30px InterV;color:rgba(255,255,255,.92);letter-spacing:1px;text-shadow:0 0 5px #000}
+.osdc{font:500 30px 'Noto Sans CJK SC';color:rgba(255,255,255,.92);text-shadow:0 0 5px #000}
+.chip{font:500 30px 'Noto Sans CJK SC';color:#fff;background:rgba(0,0,0,.55);border-radius:10px;padding:8px 18px}
+.notif{left:40px;width:1000px;height:176px;border-radius:44px;background:rgba(48,44,52,.66);backdrop-filter:blur(30px) saturate(1.4)}
+.row{position:absolute;left:44px;right:44px;display:flex;align-items:flex-start;gap:22px}
+.row.me{flex-direction:row-reverse}
+.av{width:104px;height:104px;border-radius:14px;object-fit:cover;flex:none}
+.bub{position:relative;padding:24px 32px;border-radius:14px;font:400 44px/1.3 'Noto Sans CJK SC';background:#2c2c2c;color:#e6e6e6;max-width:800px}
+.me .bub{background:#3eb575;color:#0d1a10}
+.bub:before{content:'';position:absolute;top:34px;left:-14px;border:14px solid transparent;border-left:0;border-right-color:#2c2c2c}
+.me .bub:before{left:auto;right:-14px;border:14px solid transparent;border-right:0;border-left-color:#3eb575}
+</style></head><body>
+<div id="v" class="a" style="left:0;top:0;width:1080px;height:1440px"></div>
+<script>
+const V=new URLSearchParams(location.search).get('v')||'A';
+const grain=(id,w,h,top=0)=>`<canvas id="${id}" class="a grain" width="${w/2}" height="${h/2}" style="left:0;top:${top}px;width:${w}px;height:${h}px"></canvas>`;
+const title=(y)=>`<div class="a cjk" style="left:0;width:1080px;top:${y}px;text-align:center;font:500 42px 'Noto Sans CJK SC';color:#d9b26f;letter-spacing:2px">「模拟恐怖」</div><div class="a cjk" style="left:0;width:1080px;top:${y+58}px;text-align:center;font:900 156px/1 'Noto Sans CJK SC';color:#fff;letter-spacing:10px;text-shadow:0 4px 24px rgba(0,0,0,.6)">已就寝</div>`;
+let html='';
+if(V==='A'){
+ // the night camera: an empty classroom after lights-out, him at the back wall, facing it; the push says he is in bed
+ html=`<img class="a bg" src="cover_bg_A.jpg" style="left:0;top:0;width:1080px;height:1440px">${grain('g1',1080,1440)}
+ <div class="a" style="left:0;top:0;width:1080px;height:190px;background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,0))"></div>
+ <div class="a" style="left:0;top:700px;width:1080px;height:740px;background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.62) 30%,rgba(0,0,0,.93) 62%)"></div>
+ <div class="a osd" style="left:40px;top:40px">2026-11-09 <span class="cjk" style="font-weight:500">星期一</span> 22:13:41</div>
+ <div class="a osdc" style="right:40px;top:40px">高一(7)班</div>
+ <div class="a chip" style="left:40px;top:640px">AI 在室学生 1</div>
+ <div class="a notif" style="top:760px">
+  <div class="a" style="left:34px;top:36px;width:104px;height:104px"><img src="../assets/gen/school_badge.png" style="width:104px;height:104px;border-radius:52px;display:block"><img src="../icons/wechat.png" style="position:absolute;right:-6px;bottom:-6px;width:44px;height:44px;border-radius:10px;border:3px solid rgba(48,44,52,1)"></div>
+  <div class="a cjk" style="left:168px;top:34px;font:600 40px 'Noto Sans CJK SC';color:#fff">南城一中家校通</div>
+  <div class="a cjk" style="right:44px;top:38px;font:400 34px 'Noto Sans CJK SC';color:rgba(235,235,245,.6)">现在</div>
+  <div class="a cjk" style="left:168px;top:96px;font:400 40px 'Noto Sans CJK SC';color:#f2f2f2;white-space:nowrap">[就寝状态更新] 陈默 已就寝（补登）</div>
+ </div>
+ ${title(1010)}
+ <div class="a cjk" style="left:0;width:1080px;top:1262px;text-align:center;font:500 48px 'Noto Sans CJK SC';color:#fff">宿管说：他已经躺下了</div>`;
+}else{
+ // the frame right after the stutter: his seat is empty, he is at the back wall; the count says 47 of 46
+ html=`<div class="a" style="left:0;top:0;width:1080px;height:1440px;background:#111"></div>
+ <img class="a bg" src="cover_bg_B.jpg" style="left:0;top:0;width:1080px;height:608px">${grain('g1',1080,608)}
+ <div class="a osd" style="left:28px;top:24px;font-size:28px">2026-11-09 <span class="cjk" style="font-weight:500">星期一</span> 21:14:52</div>
+ <div class="a chip" style="left:24px;top:536px;font-size:28px">AI 在室学生 47 / 应到 46</div>
+ <div class="a osdc" style="right:28px;top:548px;font-size:28px">高一(7)班</div>
+ ${title(660)}
+ <div class="a cjk" style="left:0;width:1080px;top:910px;text-align:center;font:500 46px 'Noto Sans CJK SC';color:#fff">应到 46 人，在室 47 人</div>
+ <div class="row" style="top:1050px"><img class="av" src="../assets/gen/avatar_wang.png"><div class="bub">晚自习结束都已经回去了呀</div></div>
+ <div class="row me" style="top:1220px"><img class="av" src="../assets/gen/avatar_mom.png"><div class="bub">可监控里他还在墙角站着</div></div>`;
+}
+document.getElementById('v').innerHTML=html;
+for(const c of document.querySelectorAll('canvas.grain')){const g=c.getContext('2d');const im=g.createImageData(c.width,c.height);let s=7;const r=()=>{s=(s*16807)%2147483647;return s/2147483647;};for(let i=0;i<im.data.length;i+=4){const v=128+(r()-.5)*190;im.data[i]=im.data[i+1]=im.data[i+2]=v;im.data[i+3]=255;}g.putImageData(im,0,0);}
+</script></body></html>
