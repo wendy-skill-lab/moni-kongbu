@@ -1,10 +1,12 @@
 # 模拟恐怖短片 Skill · moni-kongbu
 
-把一个恐怖点，做成像 iPhone 屏幕录制一样的原创竖屏短片。
+把一个恐怖点，做成像 iPhone 的屏幕录制一样的原创竖屏短片。
+
+作者：**wendy**。这是公开分享版，不包含私人选题与工作记录。
 
 这是可导入 **Manus** 的完整 Skill，包含从定方向、写视觉脚本、制作手机和设备界面，到素材生成、渲染混音、封面与发布文案的工作流。不是只有一段提示词，也不是一键生成固定成片的工具。
 
-**[查看 Skill 全文](./SKILL.md) · [下载完整安装包](https://github.com/qiongwenz69-spec/moni-kongbu/releases/latest/download/moni-kongbu.skill) · [查看发布版本](https://github.com/qiongwenz69-spec/moni-kongbu/releases)**
+**[查看 Skill 全文](./SKILL.md) · [下载完整安装包](https://github.com/wendy-skill-lab/moni-kongbu/releases/latest/download/moni-kongbu.skill) · [查看发布版本](https://github.com/wendy-skill-lab/moni-kongbu/releases)**
 
 ## 导入自己的 Manus
 
@@ -13,7 +15,7 @@
 3. 点击 **导入**，完成后在聊天中输入 `/`，选择 **moni-kongbu**。
 
 ```text
-https://github.com/qiongwenz69-spec/moni-kongbu
+https://github.com/wendy-skill-lab/moni-kongbu
 ```
 
 也可以点击上面的“下载完整安装包”，在 Skills → 添加 → 上传 Skill 中上传 `moni-kongbu.skill`。不要只下载 `SKILL.md`，脚本和模板是制作流程的一部分。
