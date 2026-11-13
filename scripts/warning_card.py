@@ -1,10 +1,28 @@
 """Render the opening viewing-advisory card (1080x1920) used before the film."""
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
+import os
 
 ROOT = Path(__file__).resolve().parent.parent
-FONT = '/usr/share/fonts/opentype/noto/NotoSansCJKsc-Regular.otf'
-BOLD = '/usr/share/fonts/opentype/noto/NotoSansCJKsc-Medium.otf'
+def choose_font(env_name, candidates):
+    explicit = os.environ.get(env_name)
+    if explicit:
+        if not Path(explicit).is_file():
+            raise SystemExit(f'{env_name} does not point to a font file: {explicit}')
+        return explicit
+    for candidate in candidates:
+        if Path(candidate).is_file():
+            return candidate
+    raise SystemExit('Missing CJK font. Set CJK_FONT_PATH to a usable .ttf/.otf/.ttc file.')
+
+FONT = choose_font('CJK_FONT_PATH', [
+    '/usr/share/fonts/opentype/noto/NotoSansCJKsc-Regular.otf',
+    '/System/Library/Fonts/PingFang.ttc',
+    '/System/Library/Fonts/STHeiti Light.ttc',
+])
+BOLD = choose_font('CJK_FONT_BOLD_PATH', [
+    '/usr/share/fonts/opentype/noto/NotoSansCJKsc-Medium.otf', FONT,
+])
 W, H = 1080, 1920
 im = Image.new('RGB', (W, H), (0, 0, 0))
 d = ImageDraw.Draw(im)
@@ -30,5 +48,6 @@ for i, s in enumerate(lines):
     centre(s, 870 + i * 70, 40, (200, 200, 200))
 centre('剧情纯属虚构 · 建议佩戴耳机', 1190, 32, (125, 125, 125))
 out = ROOT / 'assets' / 'warning_card.png'
+out.parent.mkdir(parents=True, exist_ok=True)
 im.save(out)
 print('Saved', out)
