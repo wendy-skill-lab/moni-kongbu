@@ -1,0 +1,77 @@
+{
+  "title": "虚构场景示例 · 资产板 v1",
+  "parts": [
+    {
+      "id": "全片",
+      "time": "",
+      "title": "方位图与场景母版",
+      "status": "待确认",
+      "items": [
+        {
+          "path": "research/floorplan.png",
+          "label": "俯视方位图"
+        },
+        {
+          "path": "assets/stills/scene_master.png",
+          "label": "虚构场景母版"
+        }
+      ],
+      "note": "仅演示清单格式；先确认空间关系和画面质感。"
+    },
+    {
+      "id": "示例段甲",
+      "time": "0:03–0:18",
+      "title": "界面与聊天素材",
+      "status": "待确认",
+      "items": [
+        {
+          "path": "qa/t_3.40.png",
+          "label": "通知界面帧"
+        },
+        {
+          "path": "qa/t_9.00.png",
+          "label": "聊天界面帧"
+        },
+        {
+          "path": "assets/thumb/example_photo.png",
+          "label": "虚构照片"
+        },
+        {
+          "path": "assets/thumb/avatar_a.png",
+          "label": "原创示例头像"
+        }
+      ],
+      "note": "名称、人物、事件均为虚构；使用前核对素材来源和授权。"
+    },
+    {
+      "id": "示例段乙",
+      "time": "0:18–0:32",
+      "title": "场景首尾帧",
+      "status": "待确认",
+      "items": [
+        {
+          "path": "assets/stills/scene_first.png",
+          "label": "场景首帧"
+        },
+        {
+          "path": "assets/stills/scene_last.png",
+          "label": "场景尾帧"
+        }
+      ],
+      "note": "确认方位和变化范围后再生成对应视频；保留虚构与适用的 AI 标识。"
+    },
+    {
+      "id": "示例关键帧",
+      "time": "",
+      "title": "关键静帧",
+      "status": "待确认",
+      "items": [
+        {
+          "path": "assets/stills/key_frame.png",
+          "label": "关键静帧占位"
+        }
+      ],
+      "note": "这些路径是相对清单目录的示例占位，不是现有素材或项目记录。"
+    }
+  ]
+}
