@@ -1,10 +1,10 @@
 {
-  "title": "虚构场景示例 · 资产板 v1",
+  "title": "《片名》资产板 v1",
   "parts": [
     {
       "id": "全片",
       "time": "",
-      "title": "方位图与场景母版",
+      "title": "方位图 + 母版",
       "status": "待确认",
       "items": [
         {
@@ -12,66 +12,58 @@
           "label": "俯视方位图"
         },
         {
-          "path": "assets/stills/scene_master.png",
-          "label": "虚构场景母版"
+          "path": "assets/stills/M1.jpg",
+          "label": "【实拍】母版 · cctv_ir"
         }
       ],
-      "note": "仅演示清单格式；先确认空间关系和画面质感。"
+      "note": "决定全片的机位和质感，先确认这一块"
     },
     {
-      "id": "示例段甲",
-      "time": "0:03–0:18",
-      "title": "界面与聊天素材",
-      "status": "待确认",
-      "items": [
-        {
-          "path": "qa/t_3.40.png",
-          "label": "通知界面帧"
-        },
-        {
-          "path": "qa/t_9.00.png",
-          "label": "聊天界面帧"
-        },
-        {
-          "path": "assets/thumb/example_photo.png",
-          "label": "虚构照片"
-        },
-        {
-          "path": "assets/thumb/avatar_a.png",
-          "label": "原创示例头像"
-        }
-      ],
-      "note": "名称、人物、事件均为虚构；使用前核对素材来源和授权。"
-    },
-    {
-      "id": "示例段乙",
+      "id": "第一段",
       "time": "0:18–0:32",
-      "title": "场景首尾帧",
+      "title": "【实拍 ①】第一次直给画面",
       "status": "待确认",
       "items": [
         {
-          "path": "assets/stills/scene_first.png",
-          "label": "场景首帧"
+          "path": "qa/t_20.00.png",
+          "label": "设备 App 界面帧（参照，不用确认）"
         },
         {
-          "path": "assets/stills/scene_last.png",
-          "label": "场景尾帧"
+          "path": "assets/gen/V1_first.png",
+          "label": "视频首帧"
+        },
+        {
+          "path": "assets/gen/V1_last.png",
+          "label": "视频尾帧"
         }
       ],
-      "note": "确认方位和变化范围后再生成对应视频；保留虚构与适用的 AI 标识。"
+      "note": "要确认：首尾帧之间只变一处；人物位置和方位图一致（App 界面 AI 自检）"
     },
     {
-      "id": "示例关键帧",
-      "time": "",
-      "title": "关键静帧",
+      "id": "第二段",
+      "time": "0:40–0:52",
+      "title": "聊天里发来的照片（藏回看线索）",
       "status": "待确认",
       "items": [
         {
-          "path": "assets/stills/key_frame.png",
-          "label": "关键静帧占位"
+          "path": "assets/thumb/photo_1.jpg",
+          "label": "照片原图"
         }
       ],
-      "note": "这些路径是相对清单目录的示例占位，不是现有素材或项目记录。"
+      "note": "要确认：线索第一遍看不出、暂停能确认。只有聊天、没有实拍画面的段落不上板"
+    },
+    {
+      "id": "最恐怖的一帧",
+      "time": "",
+      "title": "标志画面（也是封面底图）",
+      "status": "待确认",
+      "items": [
+        {
+          "path": "assets/stills/KEY.jpg",
+          "label": "最恐怖的那一帧"
+        }
+      ],
+      "note": "要确认：看得出不对劲，但看不清全貌"
     }
   ]
 }
