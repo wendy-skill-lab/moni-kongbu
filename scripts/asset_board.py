@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
-"""逐段资产板：把视觉呈现脚本每一段要用的资产图（界面帧、实拍静帧、方位图、头像、聊天里发的照片）
-按段排成一张张板子，第五步给用户逐段确认。还没做出来的资产画成灰色占位格，一眼能看出缺什么。
+"""逐段资产板：把实拍画面（方位图、母版、视频首尾帧、关键帧和藏线索照片）
+按段排成确认板；聊天、头像、壁纸由 AI 自检，不上板确认。设备 App 页可作参照，
+但不请求确认 UI。缺失资产画成灰色占位格；纯聊天段不做确认板。
 
 用法：
   python3 asset_board.py <资产清单.json> [--out <目录>] [--per 3] [--h 420]
 
-清单格式（路径相对于清单文件所在目录；status 取 待确认 / 已确认 / 要改）：
+清单格式（路径相对于清单文件所在目录；status 取 待确认 / 已确认 / 要改 / 自检通过（仅参照状态，不替代实拍确认））：
 {
   "title": "虚构场景示例 · 资产板 v1",
   "parts": [
-    {"id": "第一段", "time": "0:03–0:14", "title": "界面帧 + 场景静帧", "status": "待确认",
+    {"id": "第一段", "time": "0:03–0:14", "title": "实拍静帧 + 方位图", "status": "待确认",
      "items": [
-       {"path": "qa/t_3.40.png", "label": "锁屏推送"},
        {"path": "assets/stills/S1.jpg", "label": "虚构场景母版"},
        {"path": "research/floorplan.png", "label": "方位图"}
      ],
@@ -25,7 +25,7 @@ from functools import lru_cache
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
-STATUS = {'已确认': '#16a34a', '待确认': '#d97706', '要改': '#dc2626'}
+STATUS = {'已确认': '#16a34a', '待确认': '#d97706', '要改': '#dc2626', '自检通过': '#6b7280'}
 
 
 def choose_font(env_name, candidates):

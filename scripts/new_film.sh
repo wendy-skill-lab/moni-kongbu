@@ -67,7 +67,7 @@ cat > "$P/PLAN.md" <<EOF
 - 素材权利与来源：<参照 research/ASSET_NOTICE.md，逐项记录>
 - 素材清单、节拍时间表、用户反馈：随做随追加
 
-## 资产表（每一段确认后才生成对应视频）
+## 资产表（每段实拍画面确认、界面自检通过后才生成视频；界面、头像和壁纸不发用户确认）
 | 段 | 资产 | 文件 | 状态 | 用户意见 |
 | --- | --- | --- | --- | --- |
 
@@ -80,4 +80,4 @@ echo "  python3 src/floorplan.py research/floorplan.json research/floorplan.png"
 echo "改 src/part.js 和 src/build_data.py 后检查界面帧："
 echo "  python3 src/build_data.py && python3 src/assemble.py && (cd src && node render.js qa 1,5,10)"
 echo "  python3 src/asset_board.py asset_board.json"
-echo "逐段确认资产后再生成对应视频；保留素材权利、虚构与 AI 标识记录。"
+echo "只把实拍画面逐段交用户确认；界面、头像和壁纸 AI 自检，纯聊天段不出确认板。实拍确认和界面自检通过后才生成视频；保留权利、虚构与 AI 标识记录。"
